@@ -1,0 +1,96 @@
+/* This is the Social Link Design */
+/* Below code is the CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Below code is use to style the body */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Below code is use to style the main class div element */
+.main {
+    background-color:  #332f2f;
+    margin: 8rem auto;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+/* Below code is use style the image element*/
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 2rem 10rem;
+}
+
+/* Below code is use to style the h element */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Below code is use to style the sociallink div element */
+.sociallink {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Below code is used to style the a element inside the sociallink div element */
+a {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin: 12px 40px;
+    background-color: #444141;
+    text-decoration: none;
+}
+
+.sociallink a:last-child {
+    margin-bottom: 10rem;
+    
+}
+
+/* Below code is used to style the icon */
+
+a:hover {
+    text-decoration: underline;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bolder;
+}
+
+.sociallink a:hover i {
+    padding-right: 3rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.sociallink a i {
+    padding-right: 5rem;
+}
